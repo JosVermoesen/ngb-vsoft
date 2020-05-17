@@ -10,17 +10,6 @@ export class AboutComponent implements OnInit {
   constructor(private seoS: SeoService) {}
 
   ngOnInit(): void {
-    this.seoS.setTitle('Over Vsoft');
-    this.seoS.replaceTags([
-      {
-        name: 'keywords',
-        content: 'Jos, Vermoesen, Vsoft, github',
-      },
-      {
-        name: 'description',
-        content: 'Angular landing page with bootstrap',
-      },
-      { name: 'robots', content: 'index, follow' },
-    ]);
+    this.seoS.setAll('ABOUT');
   }
 }

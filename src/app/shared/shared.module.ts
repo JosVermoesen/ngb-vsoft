@@ -2,7 +2,7 @@ import { NgModule, ModuleWithProviders } from '@angular/core';
 // import { appDirective } from './{your-path}';
 // import { appService } from './{your-path}';
 
-import { MdToHtmlPipe } from './../shared/helpers/md-to-html.pipe';
+import { MdToHtmlPipe } from './helpers/md-to-html.pipe';
 
 @NgModule({
   declarations: [

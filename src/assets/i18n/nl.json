@@ -6,7 +6,23 @@
     "BoxLabel4": "Sterker"
   },
 
+  "MARINTEGRAAL": {
+    "Seo-Title": "Vsoft marIntegraal 1985",
+    "Seo-Keywords": "Vsoft, Plesk, Dotnet Core, ASP.NET 5, HTTPS",
+    "Seo-Description": "Boekhoud- en administratie pakket naar Belgisch recht sinds 1985 "
+  },
+
+  "HOSTING": {
+    "Seo-Title": "Vsoft Hosting sinds 2003",
+    "Seo-Keywords": "Jos, Vermoesen, Vsoft, service, services, boekhouding, hosting, webapp, open source, 1985, Vsoft 1985, mar, marIntegraal, boekhouding",
+    "Seo-Description": "Plesk Dotnet Core hosting sinds 2003"
+  },
+
   "HOME": {
+    "Seo-Title": "Vsoft 1985",
+    "Seo-Keywords": "Vsoft, service, services, boekhouding, hosting, webapp, open source, 1985, Vsoft 1985, mar, marIntegraal, boekhouding",
+    "Seo-Description": "Vsoft Administratieve software en service sinds 1985 ",
+
     "Carousel-Image1": "assets/images/home/carousel-accounting.jfif",
     "Carousel-Alt1": "eerste slide",
     "Carousel-Link1": "/marintegraal",
@@ -34,12 +50,6 @@
     "Carousel-ButtonLabel3": "Info",
     "Carousel-ButtonClass3": "btn btn-danger btn-lg",
     
-    "Info-Image": "assets/img/laptop.png",
-    "Info-RouterLink": "/contact",
-    "Info-Label": "Contacteer ons",
-    "Info-SubInfo": "",
-    "Info-Button": "Contact Pagina",
-
     "Icon-Label1": "Bedrijfsbeheer",
     "Icon-SubLabel1": "Boekhoud- en administratie pakket naar Belgisch recht",
     "Icon-Label2": "Plesk Hosting",
@@ -49,6 +59,10 @@
   },
   
   "CONTACT": {
+    "Seo-Title": "Vsoft 1985 Contact",
+    "Seo-Keywords": "Vsoft, 1985, Vsoft 1985, mar, marIntegraal, boekhouding",
+    "Seo-Description": "Vsoft Administratieve software en service sinds 1985 ",
+
     "Title": "Contacteer ons",
     "TitleIntro": "",
     "LocationLabel": "Ons Kantoor",
@@ -69,7 +83,7 @@
   },
 
   "NAVBAR": {
-    "NavTitle": "Vsoft diensten",
+    "NavTitle": "Vsoft 1985",
     "NavAbout": "Deze App",
     "NavContact": "Contact",
     "NavSettings": "Instellingen",
@@ -82,6 +96,10 @@
   },
 
   "ABOUT": {
+    "Seo-Title": "Over Vsoft 1985",
+    "Seo-Keywords": "Jos, Vermoesen, Vsoft, service, services, boekhouding, hosting, webapp, open source, 1985, Vsoft 1985, mar, marIntegraal, boekhouding",
+    "Seo-Description": "Angular landing page of Vsoft Administratieve software en service sinds 1985 ",
+
     "MainTitle": "Over deze App",
     "MainSub": "Eenvoudige single page toepassing ontwikkeld met Angular en o.a. ngx-translate.",
     "OpenSourceTitle": "Open Source",

@@ -26,18 +26,6 @@ export class HomeComponent implements OnInit {
   constructor(private seoS: SeoService) {}
 
   ngOnInit(): void {
-    this.seoS.setTitle('Vsoft Services');
-    this.seoS.replaceTags([
-      {
-        name: 'keywords',
-        content:
-          'Vsoft, service, services, boekhouding, hosting, webapp, open source',
-      },
-      {
-        name: 'description',
-        content: 'Startpagina vsoft administratieve software en service 1985',
-      },
-      { name: 'robots', content: 'index, follow' },
-    ]);
+    this.seoS.setAll('HOME');
   }
 }

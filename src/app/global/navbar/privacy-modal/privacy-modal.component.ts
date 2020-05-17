@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { Subject } from 'rxjs';
 
 import { BsModalRef } from 'ngx-bootstrap/modal';
@@ -18,12 +19,17 @@ export class PrivacyModalComponent implements OnInit {
   accordeonOneAtATime = true;
   accordeonBasicOpen = true;
 
-  constructor(public bsModalRef: BsModalRef) {}
+  constructor(public bsModalRef: BsModalRef, private router: Router) {}
 
   ngOnInit() {}
 
   onAcceptPrivacy() {
     localStorage.setItem('vsoft_privacy', this.typeCookiesAndPrivacy);
+    this.bsModalRef.hide();
+  }
+
+  onPrivacy() {
+    this.router.navigate(['/privacy']);
     this.bsModalRef.hide();
   }
 

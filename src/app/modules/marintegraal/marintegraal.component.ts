@@ -19,18 +19,7 @@ export class MarintegraalComponent implements OnInit {
   constructor(private seoS: SeoService, private cfService: ContentfulService) {}
 
   ngOnInit(): void {
-    this.seoS.setTitle('Vsoft marIntegraal');
-    this.seoS.replaceTags([
-      {
-        name: 'keywords',
-        content: 'Belgisch, Boekhoudpakket, Administratie, MAR',
-      },
-      {
-        name: 'description',
-        content: 'Boekhoud- en administratie pakket naar Belgisch recht',
-      },
-      { name: 'robots', content: 'index, follow' },
-    ]);
+    this.seoS.setAll('MARINTEGRAAL');
 
     const contentfulUpdateId = '64Wa2kez6Yo9OqgdAAxq8s';
     this.cfService.getContentDetail(contentfulUpdateId).subscribe((result) => {

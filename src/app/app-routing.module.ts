@@ -1,7 +1,10 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
+import { PrivacyComponent } from './global/footer/privacy/privacy.component';
+
 const routes: Routes = [
+  { path: 'privacy', component: PrivacyComponent },
   {
     path: 'home',
     loadChildren: () =>
@@ -21,7 +24,7 @@ const routes: Routes = [
     path: 'hosting',
     loadChildren: () =>
       import('./modules/hosting/hosting.module').then((m) => m.HostingModule),
-  },  
+  },
   {
     path: 'marintegraal',
     loadChildren: () =>

@@ -13,7 +13,7 @@ import { AccordionModule } from 'ngx-bootstrap/accordion';
 import { MarintegraalRoutingModule } from './marintegraal-routing.module';
 import { MarintegraalComponent } from './marintegraal.component';
 
-import { SharedModule } from './../shared.module';
+import { SharedModule } from '../../shared/shared.module';
 import { ContentfulService } from './../../shared/services/contentful.service';
 
 @NgModule({

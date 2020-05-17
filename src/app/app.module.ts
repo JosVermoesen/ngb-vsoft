@@ -1,3 +1,5 @@
+import { SharedModule } from './shared/shared.module';
+import { PrivacyComponent } from './global/footer/privacy/privacy.component';
 import { NgModule } from '@angular/core';
 import { LocationStrategy, HashLocationStrategy } from '@angular/common';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
@@ -29,6 +31,7 @@ import { PrivacyModalComponent } from './global/navbar/privacy-modal/privacy-mod
     AppComponent,
     NavbarComponent,
     FooterComponent,
+    PrivacyComponent,
     LanguageModalComponent,
     PrivacyModalComponent,
   ],
@@ -46,6 +49,7 @@ import { PrivacyModalComponent } from './global/navbar/privacy-modal/privacy-mod
     }),
     ModalModule.forRoot(),
     AccordionModule.forRoot(),
+    SharedModule.forRoot(),
     FontAwesomeModule,
     AppRoutingModule,
   ],

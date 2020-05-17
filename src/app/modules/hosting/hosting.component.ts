@@ -13,17 +13,6 @@ export class HostingComponent implements OnInit {
   constructor(private seoS: SeoService) {}
 
   ngOnInit(): void {
-    this.seoS.setTitle('Vsoft Hosting');
-    this.seoS.replaceTags([
-      {
-        name: 'keywords',
-        content: 'Vsoft, Plesk, Dotnet Core, ASP.NET 5, HTTPS',
-      },
-      {
-        name: 'description',
-        content: 'Plesk Dotnet Core hosting',
-      },
-      { name: 'robots', content: 'index, follow' },
-    ]);
+    this.seoS.setAll('HOSTING');
   }
 }
