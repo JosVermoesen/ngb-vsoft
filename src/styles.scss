@@ -2,7 +2,6 @@
 
 // Choose BOOTSTRAP 4.4.1 Default Theme
 // @import "~bootstrap/dist/css/bootstrap.min.css";
-
 // Or choose BOOTSWATCH 4.1.1 Free Themes
 // @import "~bootswatch/dist/cerulean/bootstrap.min.css";
 // @import "~bootswatch/dist/cosmo/bootstrap.min.css";
@@ -26,24 +25,28 @@
 // @import "~bootswatch/dist/yeti/bootstrap.min.css";
 
 /* Bootstrap 4.x default */
+
+
 /* html {
   font-size: 16px;
 } */
 
+
 /* Bootstrap 4.x small */
+
 html {
-  font-size: 14px;
+    font-size: 14px;
 }
 
 // for a cool purple scroll bar
 body::-webkit-scrollbar {
-  width: 0.40rem;
+    width: 0.4rem;
 }
 
 body::-webkit-scrollbar-track {
-  background: #1e1e24;
+    background: #1e1e24;
 }
 
 body::-webkit-scrollbar-thumb {
-  background: #6649b8;
+    background: #6649b8;
 }
