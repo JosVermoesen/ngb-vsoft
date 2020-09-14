@@ -17,6 +17,11 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
+            "allowedCommonJsDependencies": [
+              "lodash",
+              "axios",
+              "qs"
+            ],
             "outputPath": "dist/ngb-vsoft",
             "index": "src/index.html",
             "main": "src/main.ts",

@@ -15,7 +15,7 @@ import { MdToHtmlPipe } from './helpers/md-to-html.pipe';
   ],
 })
 export class SharedModule {
-  static forRoot(): ModuleWithProviders {
+  static forRoot(): ModuleWithProviders<SharedModule> {
     return {
       ngModule: SharedModule,
       // providers: [ appService ]
