@@ -47,18 +47,17 @@ For use of bootstrap, add into file styles.css:
 
 ## warnings for contentful
 
-In angular.json, to avoid CommonJs warnings, add __allowedCommonJsDependencies__ in the options section for __lodash, axios and qs__:
+In angular.json, to avoid CommonJs warnings, add **allowedCommonJsDependencies** in the options section for **lodash, axios and qs**:
 
 ```json
 "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            ...
             "allowedCommonJsDependencies": [
               "lodash",
               "axios",
               "qs"
             ],
-            ...
+            // other settings...
 ```
 
 ## file angular.json scripts
@@ -89,7 +88,7 @@ Before building, set resolveJsonModule to 'true' :
 
 ## Good practice: Updating Angular as needed
 
-This app is on Angular 10.  Update to latest Angular 10 with:
+This app is on Angular 10. Update to latest Angular 10 with:
 `ng update @angular/cli@10 @angular/core@10`
 
 Follow the instructions eventualy for fixes
