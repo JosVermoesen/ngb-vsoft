@@ -41,7 +41,7 @@ marIntegraal users can get in touch for their own version of this app (including
 
 For use of bootstrap, add into file styles.css:
 
-```json
+```bash
 @import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 ```
 
@@ -49,7 +49,7 @@ For use of bootstrap, add into file styles.css:
 
 In angular.json, to avoid CommonJs warnings, add **allowedCommonJsDependencies** in the options section for **lodash, axios and qs**:
 
-```json
+```bash
 "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "allowedCommonJsDependencies": [
@@ -57,14 +57,14 @@ In angular.json, to avoid CommonJs warnings, add **allowedCommonJsDependencies**
               "axios",
               "qs"
             ],
-            // other settings...
+            ...
 ```
 
 ## file angular.json scripts
 
 For use of js from bootstrap and jquiry, add into scripts section:
 
-```json
+```bash
 "scripts": [
               "./node_modules/jquery/dist/jquery.min.js",
               "./node_modules/bootstrap/dist/js/bootstrap.min.js"
@@ -74,7 +74,7 @@ For use of js from bootstrap and jquiry, add into scripts section:
 
 Before building, set resolveJsonModule to 'true' :
 
-```json
+```bash
 "compilerOptions": {
     ...
     "resolveJsonModule": true,
